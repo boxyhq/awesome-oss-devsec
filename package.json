@@ -1,0 +1,25 @@
+{
+  "name": "awesome-oss-devsec",
+  "version": "0.1.0",
+  "description": "An awesome list of OSS developer-first security tools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docsify serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxyhq/awesome-oss-devsec.git"
+  },
+  "keywords": [
+    "security"
+  ],
+  "author": "Deepak Prabhakara",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/boxyhq/awesome-oss-devsec/issues"
+  },
+  "homepage": "https://github.com/boxyhq/awesome-oss-devsec#readme",
+  "devDependencies": {
+    "docsify-cli": "4.4.4"
+  }
+}
