@@ -4,7 +4,9 @@
   "description": "An awesome list of OSS developer-first security tools",
   "main": "index.js",
   "scripts": {
-    "dev": "docsify serve"
+    "build": "honkit build",
+    "dev": "honkit serve",
+    "help": "honkit --help"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,6 @@
   },
   "homepage": "https://github.com/boxyhq/awesome-oss-devsec#readme",
   "devDependencies": {
-    "docsify-cli": "4.4.4"
+    "honkit": "4.0.0"
   }
 }
