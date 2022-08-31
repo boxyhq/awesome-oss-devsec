@@ -5,7 +5,7 @@ Developer Security Mesh
 BoxyHQ team <hello@boxyhq.com>
 v0.1.0, 2022-08-30
 
-https://github.com/boxyhq/jackson[⭐ Star us on GitHub]
+https://github.com/boxyhq/awesome-oss-devsec[⭐ Star us on GitHub]
 
 DevSecMesh is our upcoming product to automate security in all parts of your tech stack. By combining Security as Code, security playbooks, compliance controls and some incredible open-source security tools DevSecMesh provides complete automation of your product security. Think of it as an extension of your security team or your security team if you don't have one.
 
