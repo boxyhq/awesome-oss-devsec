@@ -1,0 +1,50 @@
+[cols="2,6a,6a",stripes=none]
+|===
+3+<h| Compliance frameworks and certifications
+h| Name
+h| Description
+h| Tools and Resources
+
+| MVSP
+| Minimum Viable Secure Product is a minimalistic security checklist for B2B software and business process outsourcing suppliers. Designed with simplicity in mind, the checklist contains only those controls that must, at a minimum, be implemented to ensure a reasonable security posture.
+| * https://mvsp.dev/mvsp.en/index.html[MVSP]
+
+| ISO 27001
+| ISO/IEC 27001 is an international standard on how to manage information security. The standard was originally published jointly by the International Organization for Standardization and the International Electrotechnical Commission in 2005 and then revised in 2013.
+| * https://github.com/SerNet/verinice[Verinice]
+* https://www.opensourcegrc.org/compliance-requirements?main=3[Open Source GRC]
+* https://www.eramba.org/community-downloads[eramba]
+
+| SOC2
+| Developed by the American Institute of CPAs (AICPA), SOC 2 defines criteria for managing customer data based on five “trust service principles”—security, availability, processing integrity, confidentiality and privacy.
+
+* Type I report is evaluation at a single point in time and can be achieved faster but provides less assurance to your clients.
+* Type II report is evaluation over an extended period of time (3-12 months) and provides more assurance to your clients.
+| * https://www.strongdm.com/comply[strongdm Comply]
+
+| GDPR
+| The General Data Protection Regulation is a regulation in EU law on data protection and privacy in the European Union and the European Economic Area. The GDPR is an important component of EU privacy law and of human rights law, in particular Article 8 of the Charter of Fundamental Rights of the European Union.
+| * https://www.eramba.org/community-downloads[eramba]
+* https://www.opensourcegrc.org/compliance-requirements?main=19[Open Source GRC]
+
+| PCI DSS
+| The Payment Card Industry Data Security Standard (PCI DSS) is a widely accepted set of policies and procedures intended to optimize the security of credit, debit and cash card transactions and protect cardholders against misuse of their personal information.
+| * https://github.com/SerNet/verinice[Verinice]
+* https://www.eramba.org/community-downloads[eramba]
+* https://www.opensourcegrc.org/compliance-requirements?main=2[Open Source GRC]
+
+| HIPAA
+| The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a federal law that required the creation of national standards to protect sensitive patient health information from being disclosed without the patient's consent or knowledge.
+| * https://www.eramba.org/community-downloads[eramba]
+* https://www.opensourcegrc.org/compliance-requirements?main=11[Open Source GRC]
+
+| HITRUST CSF
+| Organizations that create, access, store, or exchange sensitive information can use the HITRUST Common Security Framework (CSF) assessment as a roadmap to data security and compliance. The HITRUST CSF assurance program combines aspects from common security frameworks like ISO, NIST, PCI, and HIPAA.
+| * https://www.eramba.org/community-downloads[eramba]
+* https://www.opensourcegrc.org/compliance-requirements?main=17[Open Source GRC]
+
+| CSA STAR
+| The Security, Trust, Assurance, and Risk (STAR) Registry is a publicly accessible registry that documents the security and privacy controls provided by popular cloud computing offerings. STAR encompasses the key principles of transparency, rigorous auditing, and harmonization of standards outlined in the Cloud Controls Matrix (CCM).
+| * https://cloudsecurityalliance.org/star/[Cloud Security Alliance]
+
+|===

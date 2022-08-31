@@ -1,0 +1,216 @@
+:!last-update-label:
+:compat-mode!:
+Developer Security Mesh
+=======================
+BoxyHQ team <hello@boxyhq.com>
+v0.1.0, 2022-08-30
+
+DevSecMesh is our upcoming product to automate security in all parts of your tech stack. By combining Security as Code, security playbooks, compliance controls and some incredible open-source security tools DevSecMesh provides complete automation of your product security. Think of it as an extension of your security team or your security team if you don't have one.
+
+In the meantime we have curated a list of awesome developer-first security principles for your product. And a set of free OSS tools to use for it where applicable. It is heavily inspired by https://mvsp.dev/mvsp.en/index.html[MVSP], a minimum security baseline for enterprise-ready products and services. Our missions align and we have recently joined their working group.
+
+Designed with simplicity in mind the checklist contains security controls, their description, relevance to popular compliance certifications (like ISO27001, SOC2, MVSP, etc.) and open-source tools you can readily use to automate it.
+
+Shift-left security allows developers to keep pace with agile development and continuous deployment but it's simply not enough to provide tools that are designed for security teams. What is needed instead is developer tools built for security, allowing developers to built secure products without adding additional work.
+
+We'd love your feedback and contributions to this list. Please submit an issue, PR or reach out to us at devsecmesh@boxyhq.com
+
+Here's a list of link:COMPLIANCE.adoc[popular compliance frameworks and certifications].
+
+[cols="2,6a,6a,6a",stripes=none]
+|===
+4+<h| Business controls
+h| Control
+h| Description
+h| Compliance Controls
+h| Tools (if applicable)
+
+| Vulnerability reports
+| * Publish the point of contact for security reports on your website
+* Respond to security reports within a reasonable time frame
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 1.1]
+* ISO 27001 A.12.6.1
+* SOC2 CC7.1
+|
+
+| Customer testing
+| * On request, enable your customers or their delegates to test the security of your application
+* Test on a non-production environment if it closely resembles the production environment in functionality
+* Ensure non-production environments do not contain production data
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 1.2]
+* ISO 27001 A.12.6.1
+* SOC2 CC7.1
+|
+
+| External testing
+| Contract a security vendor to perform annual, comprehensive penetration tests on your systems
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 1.4]
+* ISO 27001 A.12.6.1
+* SOC2 CC7.1
+|
+
+| Training
+| Implement role-specific security training for your personnel that is relevant to their business function
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 1.5]
+* ISO 27001 A.7.2.2
+* SOC2 CC2.2
+|
+
+| Compliance
+| * Comply with all industry security standards relevant to your business such as PCI DSS, HITRUST, ISO27001, and SSAE 18
+* Comply with local laws and regulations in jurisdictions applicable to your company and your customers, such as GDPR, Binding Corporate Rules, and Standard Contractual Clauses
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 1.6]
+* ISO 27001
+* SOC2
+|
+
+| Incident management
+| * Notify your customers about a breach without undue delay, no later than 72 hours upon discovery
+  * Include the following information in the notification:
+  ** Relevant point of contact
+  ** Preliminary technical analysis of the breach
+  ** Remediation plan with reasonable timelines
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 1.7]
+* ISO 27001 A.16.1
+* SOC2 CC7.3
+|
+
+4+<h| Application design controls
+h| Control
+h| Description
+h| Compliance Controls
+h| Tools (if applicable)
+
+| Single Sign-On
+| Implement single sign-on using modern and industry standard protocols
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 2.1]
+* ISO 27001 A.9.4.2
+* SOC2 CC6.1
+| * https://github.com/boxyhq/jackson[BoxyHQ SAML Jackson]
+
+| Access Control
+| * Implement strict access control in your application guarding resources as needed
+* Allow easy provisioning and de-provisioning of users
+| * ISO 27001 A.9.1.1, A.9.2.1
+* SOC2 CC6.1
+| * https://github.com/boxyhq/jackson[BoxyHQ Directory Sync (coming soon)]
+
+| HTTPS-only
+| * Redirect traffic from HTTP protocol (port 80) to HTTPS (port 443)
+  
+  This does not apply to secure protocols designed to run on top of unencrypted connections, such as OCSP
+
+  * Produce a clear scan using a widely adopted TLS scanning tool
+  * Include the Strict-Transport-Security header on all pages with the `includeSubdomains` directive
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 2.2]
+* ISO 27001 A.10.1.1
+* SOC2 CC6.7
+| https://github.com/drwetter/testssl.sh[testssl.sh]
+
+| Dependency Patching
+| Apply security patches with a severity score of "medium" or higher, or ensure equivalent mitigations are available for all components of the application stack within one month of the patch release
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 2.6]
+* ISO 27001 A.12.6.1
+* SOC2 CC7.1
+| * https://owasp.org/www-project-dependency-check[OWASP Dependency Check]
+* https://owasp.org/www-project-dependency-track[OWASP Dependency Track]
+
+| Logging
+| Keep logs of:
+
+  * Users logging in and out
+  * Read, write, delete operations on application and system users and objects
+  * Security settings changes (including disabling logging)
+  * Application owner access to customer data (access transparency)
+
+Logs must include user ID, IP address, valid timestamp, type of action performed, and object of this action.
+Logs must be stored for at least 30 days, and should not contain sensitive data or payloads. 
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 2.7]
+* ISO 27001 A.12.4.1
+* SOC2 CC7.2
+| * BoxyHQ Audit Logs (coming soon)
+* https://www.elastic.co/elastic-stack[ELK Stack]
+* https://www.fluentd.org[FluentD]
+
+| Backup and Disaster recovery
+| * Securely back up all data to a different location than where the application is running
+  * Maintain and periodically test disaster recovery plans
+  * Periodically test backup restoration
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 2.8]
+* ISO 27001 A.17.1
+* SOC2 A1.3
+|
+
+| Encryption
+| Use available means of encryption to protect sensitive data in transit between systems and at rest in online data storages and backups
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 2.9]
+* ISO 27001 A.10.1
+* SOC2 CC6.1
+* GDPR
+* HIPAA
+| * BoxyHQ Privacy Vault (coming soon)
+
+4+<h| Application implementation controls
+h| Control
+h| Description
+h| Compliance controls
+h| Tools (if applicable)
+
+| List of sensitive data
+| Maintain a list of sensitive data types that the application is expected to process
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 3.1]
+* ISO 27001 A.10.1
+* SOC2 CC6.1
+* GDPR
+* HIPAA
+| * BoxyHQ Privacy Vault (coming soon)
+
+| Data flow diagram
+| Maintain an up-to-date diagram indicating how sensitive data reaches your systems and where it ends up being stored
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 3.2]
+* ISO 27001 A.10.1
+* SOC2 CC6.1
+* GDPR
+* HIPAA
+| * BoxyHQ Privacy Vault (coming soon)
+
+| Vulnerability prevention
+| Train your developers and implement development guidelines to prevent at least the following vulnerabilities:
+
+  * Authorization bypass
+  * Insecure session ID
+  * Injections
+  * Cross-site scripting
+  * Cross-site request forgery
+  * Use of vulnerable libraries
+| * https://mvsp.dev/mvsp.en/index.html[MVSP 3.3]
+* ISO 27001 A.12.6.1
+* SOC2 CC7.1
+| * https://owasp.org/www-project-zap/[OWASP Zap]
+* https://wapiti-scanner.github.io[Wapiti Scanner]
+* https://owasp.org/www-project-top-ten[OWASP Top Ten]
+
+| Infrastructure and cloud security
+| Perform audits, continuous monitoring, hardening and forensics readiness for your infrastructure and cloud assets.
+| * ISO 27001 A.12.6.1
+* SOC2 CC7.1
+| * https://github.com/prowler-cloud/prowler[Prowler for AWS]
+* https://github.com/aquasecurity/cloudsploit[Cloudsploit]
+* https://github.com/aquasecurity/trivy[Trivy container scanner]
+* https://github.com/bridgecrewio/AirIAM[AirIAM]
+* https://github.com/controlplaneio/kubesec[Kubesec Kubernetes security]
+
+4+<h| Code security
+h| Control
+h| Description
+h| Compliance controls
+h| Tools (if applicable)
+
+| Data leakage prevention
+| Protect secrets from leaking into code, logs and unwanted systems.
+| * ISO 27001 A.12.6.1
+* SOC2 CC7.1
+| * https://github.com/zricethezav/gitleaks[Gitleaks]
+* https://github.com/GitGuardian/ggshield[GitGuardian]
+
+|===
