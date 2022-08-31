@@ -177,17 +177,40 @@ h| Tools (if applicable)
 | Vulnerability prevention
 | Train your developers and implement development guidelines to prevent at least the following vulnerabilities:
 
-  * Authorization bypass. Example: Accessing other customers' data or admin features from a regular account
-  * Insecure session ID. Examples: Guessable token; a token stored in an insecure location (e.g. cookie without secure and httpOnly flags set)
-  * Injections. Examples: SQL injection, NoSQL injection, XXE, OS command injection
-  * Cross-site scripting. Examples: Calling insecure JavaScript functions, performing insecure DOM manipulations, echoing back user input into HTML without escaping
-  * Cross-site request forgery. Example: Accepting requests with an Origin header from a different domain
-  * Use of vulnerable libraries. Example: Using server-side frameworks or JavaScript libraries with known vulnerabilities
+  * Authorization bypass
+  * Insecure session ID
+  * Injections
+  * Cross-site scripting
+  * Cross-site request forgery
+  * Use of vulnerable libraries
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 3.3]
 * ISO 27001 A.12.6.1
 * SOC2 CC7.1
 | * https://owasp.org/www-project-zap/[OWASP Zap]
 * https://wapiti-scanner.github.io[Wapiti Scanner]
 * https://owasp.org/www-project-top-ten[OWASP Top Ten]
+
+| Infrastructure and cloud security
+| Perform audits, continuous monitoring, hardening and forensics readiness for your infrastructure and cloud assets.
+| * ISO 27001 A.12.6.1
+* SOC2 CC7.1
+| * https://github.com/prowler-cloud/prowler[Prowler for AWS]
+* https://github.com/aquasecurity/cloudsploit[Cloudsploit]
+* https://github.com/aquasecurity/trivy[Trivy container scanner]
+* https://github.com/bridgecrewio/AirIAM[AirIAM]
+* https://github.com/controlplaneio/kubesec[Kubesec Kubernetes security]
+
+4+<h| Code security
+h| Control
+h| Description
+h| Compliance controls
+h| Tools (if applicable)
+
+| Data leakage prevention
+| Protect secrets from leaking into code, logs and unwanted systems.
+| * ISO 27001 A.12.6.1
+* SOC2 CC7.1
+| * https://github.com/zricethezav/gitleaks[Gitleaks]
+* https://github.com/GitGuardian/ggshield[GitGuardian]
 
 |===
