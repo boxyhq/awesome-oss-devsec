@@ -68,7 +68,7 @@ h| Tools (if applicable)
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 1.6]
 * ISO 27001
 * SOC2
-|
+| * https://hub.steampipe.io/mods?objectives=compliance[Steampipe Compliance Mods]
 
 | Incident management
 | * Notify your customers about a breach without undue delay, no later than 72 hours upon discovery
@@ -111,7 +111,9 @@ h| Tools (if applicable)
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 2.2]
 * ISO 27001 A.10.1.1
 * SOC2 CC6.7
-| https://github.com/drwetter/testssl.sh[testssl.sh]
+| * https://hub.steampipe.io/plugins/turbot/net[Steampipe Net Plugin]
+* https://github.com/drwetter/testssl.sh[testssl.sh]
+
 
 | Dependency Patching
 | Apply security patches with a severity score of "medium" or higher, or ensure equivalent mitigations are available for all components of the application stack within one month of the patch release
@@ -137,6 +139,7 @@ Logs must be stored for at least 30 days, and should not contain sensitive data 
 | * BoxyHQ Audit Logs (coming soon)
 * https://www.elastic.co/elastic-stack[ELK Stack]
 * https://www.fluentd.org[FluentD]
+* https://steampipe.io[Steampipe]
 
 | Backup and Disaster recovery
 | * Securely back up all data to a different location than where the application is running
@@ -192,19 +195,23 @@ h| Tools (if applicable)
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 3.3]
 * ISO 27001 A.12.6.1
 * SOC2 CC7.1
-| * https://owasp.org/www-project-zap/[OWASP Zap]
+| * https://owasp.org/www-project-top-ten[OWASP Top Ten]
+* https://owasp.org/www-project-zap/[OWASP Zap]
+* https://hub.steampipe.io/mods/turbot/net_insights[Steampipe Net Insights mod]
 * https://wapiti-scanner.github.io[Wapiti Scanner]
-* https://owasp.org/www-project-top-ten[OWASP Top Ten]
 
 | Infrastructure and cloud security
 | Perform audits, continuous monitoring, hardening and forensics readiness for your infrastructure and cloud assets.
 | * ISO 27001 A.12.6.1
 * SOC2 CC7.1
-| * https://github.com/prowler-cloud/prowler[Prowler for AWS]
+| * https://github.com/bridgecrewio/AirIAM[AirIAM]
 * https://github.com/aquasecurity/cloudsploit[Cloudsploit]
-* https://github.com/aquasecurity/trivy[Trivy container scanner]
-* https://github.com/bridgecrewio/AirIAM[AirIAM]
 * https://github.com/controlplaneio/kubesec[Kubesec Kubernetes security]
+* https://github.com/prowler-cloud/prowler[Prowler for AWS]
+* https://hub.steampipe.io/mods?objectives=compliance,security[Steampipe Compliance & Security mods]
+* https://github.com/aquasecurity/trivy[Trivy container scanner]
+
+
 
 4+<h| Code security
 h| Control
@@ -216,7 +223,7 @@ h| Tools (if applicable)
 | Protect secrets from leaking into code, logs and unwanted systems.
 | * ISO 27001 A.12.6.1
 * SOC2 CC7.1
-| * https://github.com/zricethezav/gitleaks[Gitleaks]
-* https://github.com/GitGuardian/ggshield[GitGuardian]
-
+| * https://github.com/GitGuardian/ggshield[GitGuardian]
+* https://github.com/zricethezav/gitleaks[Gitleaks]
+* https://hub.steampipe.io/plugins/turbot/code[Steampipe Code Plugin]
 |===
