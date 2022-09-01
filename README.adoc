@@ -7,7 +7,7 @@ v0.1.0, 2022-08-30
 
 https://github.com/boxyhq/awesome-oss-devsec[⭐ Star us on GitHub]
 
-DevSecMesh is our upcoming product to automate security in all parts of your tech stack. By combining Security as Code, security playbooks, compliance controls and some incredible open-source security tools DevSecMesh provides complete automation of your product security. Think of it as an extension of your security team or your security team if you don't have one.
+DevSecMesh is https://boxyhq.com[BoxyHQ's] upcoming product to automate security in all parts of your tech stack. By combining Security as Code, security playbooks, compliance controls and some incredible open-source security tools DevSecMesh provides complete automation of your product security. Think of it as an extension of your security team or your security team if you don't have one.
 
 In the meantime we have curated a list of awesome developer-first security principles for your product. And a set of free OSS tools to use for it where applicable. It is heavily inspired by https://mvsp.dev/mvsp.en/index.html[MVSP], a minimum security baseline for enterprise-ready products and services. Our missions align and we have recently joined their working group.
 
@@ -17,7 +17,11 @@ Shift-left security allows developers to keep pace with agile development and co
 
 We'd love your feedback and contributions to this list. Please submit an issue, PR or reach out to us at devsecmesh@boxyhq.com
 
-Here's a list of link:COMPLIANCE.adoc[popular compliance frameworks and certifications].
+We have also consolidated a list of link:COMPLIANCE.adoc[popular compliance frameworks and certifications] that you might find interesting.
+
+If you are interested in Developer Security and DevSecOps in general, we invite you to join our https://discord.com/invite/uyb7pYt4Pa[Discord] community and share more.
+
+## Awesome OSS Developer Security Tools
 
 [cols="2,6a,6a,6a",stripes=none]
 |===
