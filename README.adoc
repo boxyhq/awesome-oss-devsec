@@ -23,7 +23,7 @@ If you are interested in Developer Security and DevSecOps in general, we invite 
 
 ## Awesome OSS Developer Security Tools
 
-[cols="a,a,a,a",stripes=none]
+[cols="2a,6a,2a,2a",stripes=none]
 |===
 4+<h| Business controls
 h| Control
