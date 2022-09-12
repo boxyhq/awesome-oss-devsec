@@ -99,9 +99,6 @@ h| Tools (if applicable)
 
 | HTTPS-only
 | * Redirect traffic from HTTP protocol (port 80) to HTTPS (port 443)
-  
-  This does not apply to secure protocols designed to run on top of unencrypted connections, such as OCSP
-
   * Produce a clear scan using a widely adopted TLS scanning tool
   * Include the Strict-Transport-Security header on all pages with the `includeSubdomains` directive
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 2.2]
