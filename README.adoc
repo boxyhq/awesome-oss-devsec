@@ -7,17 +7,13 @@ v0.1.0, 2022-08-30
 
 https://github.com/boxyhq/awesome-oss-devsec[⭐ Star us on GitHub]
 
-At https://boxyhq.com[BoxyHQ] we have curated a list of awesome developer-first security principles for your product. And a set of free OSS tools to use for it where applicable. It is heavily inspired by https://mvsp.dev/mvsp.en/index.html[MVSP], a minimum security baseline for enterprise-ready products and services. Our missions align and we have recently joined their working group.
+List of awesome open-source developer security tools. Maintained by https://boxyhq.com[BoxyHQ], and heavily inspired by https://mvsp.dev/mvsp.en/index.html[MVSP].
 
-Designed with simplicity in mind the checklist contains security controls, their description, relevance to popular compliance certifications (like ISO27001, SOC2, MVSP, etc.) and open-source tools you can readily use to automate it.
+It includes security principles and controls relevant to popular compliance certifications (like ISO27001, SOC2, MVSP, etc.). Also check this list of link:COMPLIANCE.adoc[popular compliance frameworks and certifications]
 
-Shift-left security allows developers to keep pace with agile development and continuous deployment but it's simply not enough to provide tools that are designed for security teams. What is needed instead is developer tools built for security, allowing developers to built secure products without adding additional work.
+Interested in the future of developer security? Join our https://discord.com/invite/uyb7pYt4Pa[Discord] community to share and collaborate.
 
-We'd love your feedback and contributions to this list. Please submit an issue, PR or reach out to us at devsecmesh@boxyhq.com
-
-We have also consolidated a list of link:COMPLIANCE.adoc[popular compliance frameworks and certifications] that you might find interesting.
-
-If you are interested in Developer Security and DevSecOps in general, we invite you to join our https://discord.com/invite/uyb7pYt4Pa[Discord] community and share more.
+We'd love your feedback and contributions to this list. Please submit a GitHub issue or PR.
 
 [cols="2a,6a,2a,2a",stripes=none]
 |===
