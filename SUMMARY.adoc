@@ -1,4 +1,4 @@
 = Summary
 
-. link:README.adoc[DevSecMesh]
+. link:README.adoc[DevSec Tools]
 . link:COMPLIANCE.adoc[Compliance frameworks and certifications]
