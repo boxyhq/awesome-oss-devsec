@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/boxyhq/awesome-oss-devsec#readme",
   "devDependencies": {
-    "honkit": "4.0.0"
+    "honkit": "4.0.0",
+    "@honkit/honkit-plugin-ga": "1.0.1"
   }
 }
