@@ -215,4 +215,9 @@ h| Tools (if applicable)
 | * https://github.com/GitGuardian/ggshield[GitGuardian]
 * https://github.com/zricethezav/gitleaks[Gitleaks]
 * https://hub.steampipe.io/plugins/turbot/code[Steampipe Code Plugin]
+
+| Zero Trust Principles
+| Keep data encrypted from end-to-end and have no listening ports for malware/ransomeware to spread etc.
+| * [NIST Special Publication 800-207](https://doi.org/10.6028/NIST.SP.800-207)
+| * https://github.com/openziti/ziti[OpenZiti] (numerous SDKs)
 |===
