@@ -60,7 +60,8 @@ h| Tools (if applicable)
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 1.6]
 * ISO 27001
 * SOC2
-| * https://hub.steampipe.io/mods?objectives=compliance[Steampipe Compliance Mods]
+| * https://github.com/deepfence/ThreatMapper[Deepfence ThreatMapper]
+* https://hub.steampipe.io/mods?objectives=compliance[Steampipe Compliance Mods]
 
 | Incident management
 | * Notify your customers about a breach without undue delay, no later than 72 hours upon discovery
@@ -195,6 +196,7 @@ h| Tools (if applicable)
 * SOC2 CC7.1
 | * https://github.com/bridgecrewio/AirIAM[AirIAM]
 * https://github.com/aquasecurity/cloudsploit[Cloudsploit]
+* https://github.com/deepfence/ThreatMapper[Deepfence ThreatMapper]
 * https://github.com/controlplaneio/kubesec[Kubesec Kubernetes security]
 * https://github.com/prowler-cloud/prowler[Prowler for AWS]
 * https://hub.steampipe.io/mods?objectives=compliance,security[Steampipe Compliance & Security mods]
