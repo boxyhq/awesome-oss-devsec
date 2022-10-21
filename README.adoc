@@ -21,7 +21,7 @@ We'd love your feedback and contributions to this list. Please submit a GitHub i
 h| Control
 h| Description
 h| Compliance Controls
-h| Tools (if applicable)
+h| Tools
 
 | Vulnerability reports
 | * Publish the point of contact for security reports on your website
@@ -78,7 +78,7 @@ h| Tools (if applicable)
 h| Control
 h| Description
 h| Compliance Controls
-h| Tools (if applicable)
+h| Tools
 
 | Single Sign-On
 | Implement single sign-on using modern and industry standard protocols
@@ -153,7 +153,7 @@ Logs must be stored for at least 30 days, and should not contain sensitive data 
 h| Control
 h| Description
 h| Compliance controls
-h| Tools (if applicable)
+h| Tools
 
 | List of sensitive data
 | Maintain a list of sensitive data types that the application is expected to process
@@ -208,7 +208,7 @@ h| Tools (if applicable)
 h| Control
 h| Description
 h| Compliance controls
-h| Tools (if applicable)
+h| Tools
 
 | Data leakage prevention
 | Protect secrets from leaking into code, logs and unwanted systems.
@@ -220,6 +220,6 @@ h| Tools (if applicable)
 
 | Zero Trust Principles
 | Keep data encrypted from end-to-end and have no listening ports for malware/ransomeware to spread etc.
-| * [NIST Special Publication 800-207](https://doi.org/10.6028/NIST.SP.800-207)
+| * https://doi.org/10.6028/NIST.SP.800-207[NIST Special Publication 800-207]
 | * https://github.com/openziti/ziti[OpenZiti] (numerous SDKs)
 |===
