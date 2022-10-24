@@ -93,6 +93,10 @@ h| Tools
 | * ISO 27001 A.9.1.1, A.9.2.1
 * SOC2 CC6.1
 | * https://github.com/boxyhq/jackson#directory-sync[BoxyHQ Directory Sync]
+* https://github.com/casbin/casbin[Casbin]
+* https://cerbos.dev[Cerbos]
+* https://github.com/ory/keto[Keto]
+* https://github.com/osohq/oso[Oso]
 
 | HTTPS-only
 | * Redirect traffic from HTTP protocol (port 80) to HTTPS (port 443)
