@@ -166,7 +166,7 @@ h| Tools
 * SOC2 CC6.1
 * GDPR
 * HIPAA
-| * https://github.com/retracedhq/retraced[BoxyHQ Privacy Vault]
+| * BoxyHQ Privacy Vault (coming soon)
 
 | Data flow diagram
 | Maintain an up-to-date diagram indicating how sensitive data reaches your systems and where it ends up being stored
