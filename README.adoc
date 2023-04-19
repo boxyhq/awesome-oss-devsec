@@ -167,6 +167,7 @@ h| Tools
 * GDPR
 * HIPAA
 | * BoxyHQ Privacy Vault (coming soon)
+* https://github.com/Bearer/bearer[Bearer]
 
 | Data flow diagram
 | Maintain an up-to-date diagram indicating how sensitive data reaches your systems and where it ends up being stored
@@ -193,6 +194,7 @@ h| Tools
 * https://owasp.org/www-project-zap/[OWASP Zap]
 * https://hub.steampipe.io/mods/turbot/net_insights[Steampipe Net Insights mod]
 * https://wapiti-scanner.github.io[Wapiti Scanner]
+* https://github.com/Bearer/bearer[Bearer]
 
 | Infrastructure and cloud security
 | Perform audits, continuous monitoring, hardening and forensics readiness for your infrastructure and cloud assets.
@@ -221,6 +223,7 @@ h| Tools
 | * https://github.com/GitGuardian/ggshield[GitGuardian]
 * https://github.com/zricethezav/gitleaks[Gitleaks]
 * https://hub.steampipe.io/plugins/turbot/code[Steampipe Code Plugin]
+* https://github.com/Bearer/bearer[Bearer]
 
 | Zero Trust Principles
 | Keep data encrypted from end-to-end and have no listening ports for malware/ransomeware to spread etc.
