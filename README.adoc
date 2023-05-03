@@ -23,7 +23,7 @@ h| Description
 h| Compliance Controls
 h| Tools
 
-| Vulnerability reports
+| Vulnerability Reports
 | * Publish the point of contact for security reports on your website
 * Respond to security reports within a reasonable time frame
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 1.1]
@@ -31,7 +31,7 @@ h| Tools
 * SOC2 CC7.1
 |
 
-| Customer testing
+| Customer Testing
 | * On request, enable your customers or their delegates to test the security of your application
 * Test on a non-production environment if it closely resembles the production environment in functionality
 * Ensure non-production environments do not contain production data
@@ -40,7 +40,7 @@ h| Tools
 * SOC2 CC7.1
 |
 
-| External testing
+| External Testing
 | Contract a security vendor to perform annual, comprehensive penetration tests on your systems
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 1.4]
 * ISO 27001 A.12.6.1
@@ -63,7 +63,7 @@ h| Tools
 | * https://github.com/deepfence/ThreatMapper[Deepfence ThreatMapper]
 * https://hub.steampipe.io/mods?objectives=compliance[Steampipe Compliance Mods]
 
-| Incident management
+| Incident Management
 | * Notify your customers about a breach without undue delay, no later than 72 hours upon discovery
   * Include the following information in the notification:
   ** Relevant point of contact
@@ -74,7 +74,7 @@ h| Tools
 * SOC2 CC7.3
 |
 
-4+<h| Application design controls
+4+<h| Application Design Controls
 h| Control
 h| Description
 h| Compliance Controls
@@ -98,7 +98,7 @@ h| Tools
 * https://github.com/ory/keto[Keto]
 * https://github.com/osohq/oso[Oso]
 
-| HTTPS-only
+| HTTPS-Only
 | * Redirect traffic from HTTP protocol (port 80) to HTTPS (port 443)
   * Produce a clear scan using a widely adopted TLS scanning tool
   * Include the Strict-Transport-Security header on all pages with the `includeSubdomains` directive
@@ -135,7 +135,7 @@ Logs must be stored for at least 30 days, and should not contain sensitive data 
 * https://www.fluentd.org[FluentD]
 * https://steampipe.io[Steampipe]
 
-| Backup and Disaster recovery
+| Backup and Disaster Recovery
 | * Securely back up all data to a different location than where the application is running
   * Maintain and periodically test disaster recovery plans
   * Periodically test backup restoration
@@ -153,13 +153,13 @@ Logs must be stored for at least 30 days, and should not contain sensitive data 
 * HIPAA
 | * BoxyHQ Privacy Vault (coming soon)
 
-4+<h| Application implementation controls
+4+<h| Application Implementation Controls
 h| Control
 h| Description
 h| Compliance controls
 h| Tools
 
-| List of sensitive data
+| List of Sensitive Data
 | Maintain a list of sensitive data types that the application is expected to process
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 3.1]
 * ISO 27001 A.10.1
@@ -169,7 +169,7 @@ h| Tools
 | * BoxyHQ Privacy Vault (coming soon)
 * https://github.com/Bearer/bearer[Bearer]
 
-| Data flow diagram
+| Data Flow Diagram
 | Maintain an up-to-date diagram indicating how sensitive data reaches your systems and where it ends up being stored
 | * https://mvsp.dev/mvsp.en/index.html[MVSP 3.2]
 * ISO 27001 A.10.1
@@ -178,7 +178,7 @@ h| Tools
 * HIPAA
 | * BoxyHQ Privacy Vault (coming soon)
 
-| Vulnerability prevention
+| Vulnerability Prevention
 | Train your developers and implement development guidelines to prevent at least the following vulnerabilities:
 
   * Authorization bypass
@@ -196,7 +196,7 @@ h| Tools
 * https://wapiti-scanner.github.io[Wapiti Scanner]
 * https://github.com/Bearer/bearer[Bearer]
 
-| Infrastructure and cloud security
+| Infrastructure and Cloud Security
 | Perform audits, continuous monitoring, hardening and forensics readiness for your infrastructure and cloud assets.
 | * ISO 27001 A.12.6.1
 * SOC2 CC7.1
@@ -210,13 +210,13 @@ h| Tools
 
 
 
-4+<h| Code security
+4+<h| Code Security
 h| Control
 h| Description
 h| Compliance controls
 h| Tools
 
-| Data leakage prevention
+| Data Leakage Prevention
 | Protect secrets from leaking into code, logs and unwanted systems.
 | * ISO 27001 A.12.6.1
 * SOC2 CC7.1
