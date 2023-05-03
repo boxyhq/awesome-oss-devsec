@@ -1,6 +1,6 @@
 :!last-update-label:
 :compat-mode!:
-Awesome open-source developer security tools
+Awesome Open-Source Developer Security Tools
 ============================================
 BoxyHQ team <hello@boxyhq.com>
 v0.1.0, 2022-08-30
