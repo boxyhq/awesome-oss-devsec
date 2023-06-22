@@ -92,7 +92,8 @@ h| Tools
 * Allow easy provisioning and de-provisioning of users
 | * ISO 27001 A.9.1.1, A.9.2.1
 * SOC2 CC6.1
-| * https://github.com/boxyhq/jackson#directory-sync[BoxyHQ Directory Sync]
+| * https://www.aserto.com[Aserto]
+* https://github.com/boxyhq/jackson#directory-sync[BoxyHQ Directory Sync]
 * https://github.com/casbin/casbin[Casbin]
 * https://cerbos.dev[Cerbos]
 * https://github.com/ory/keto[Keto]
