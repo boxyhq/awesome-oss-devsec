@@ -24,5 +24,8 @@
   "devDependencies": {
     "honkit": "4.0.4",
     "@honkit/honkit-plugin-ga": "1.0.1"
+  },
+  "engines": {
+    "node": ">=18.16.1"
   }
 }
