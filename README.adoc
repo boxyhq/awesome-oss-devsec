@@ -196,6 +196,7 @@ h| Tools
 * https://hub.steampipe.io/mods/turbot/net_insights[Steampipe Net Insights mod]
 * https://wapiti-scanner.github.io[Wapiti Scanner]
 * https://github.com/Bearer/bearer[Bearer]
+* https://codemodder.io[Codemodder]
 
 | Infrastructure and Cloud Security
 | Perform audits, continuous monitoring, hardening and forensics readiness for your infrastructure and cloud assets.
