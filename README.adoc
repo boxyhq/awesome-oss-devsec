@@ -98,6 +98,7 @@ h| Tools
 * https://cerbos.dev[Cerbos]
 * https://github.com/ory/keto[Keto]
 * https://github.com/osohq/oso[Oso]
+* https://github.com/permitio/opal[OPAL]
 
 | HTTPS-Only
 | * Redirect traffic from HTTP protocol (port 80) to HTTPS (port 443)
